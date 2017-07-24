@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,17 +51,35 @@
   
 
   
+    
+      
+    
 
-  
-
+    
   
 
   
 
   
     
+      
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Moda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -95,7 +113,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="字符串、向量、数组、迭代器">
 <meta property="og:url" content="http://yoursite.com/2017/07/23/字符串、向量、数组、迭代器/index.html">
-<meta property="og:site_name" content="blog">
+<meta property="og:site_name" content="xxx">
 <meta property="og:description" content="1、标准库类型string string对象会自动忽略开头的空白（即空格符、换行符、制表符等）并从第一个真正的字符开始读起，直到遇到下一处空白为止。 当我们希望得到的string对象中保留输入时的空白符时，可以用getline函数来代替原来的&amp;gt;&amp;gt;运算符。getline函数的参数是一个输入流和一个string对象，函数从给定的输入流中读入内容，知道遇到换行符为止（p78）。如：  get">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2017-06-23T03:57:39.745Z">
@@ -109,7 +127,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -135,7 +153,7 @@
 
 
 
-  <title>字符串、向量、数组、迭代器 | blog</title>
+  <title>字符串、向量、数组、迭代器 | xxx</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -171,12 +189,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">blog</span>
+        <span class="site-title">xxx</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">Xipu'blog</p>
+        <p class="site-subtitle">xxx</p>
       
   </div>
 
@@ -264,22 +282,26 @@
   
     <div class="site-search">
       
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
-    <div class="local-search-input-wrapper">
-      <input autocapitalize="off" autocomplete="off" autocorrect="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
   </div>
-  <div id="local-search-result"></div>
-</div>
+
 
 
 
@@ -311,13 +333,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/23/字符串、向量、数组、迭代器/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Xipu">
+      <meta itemprop="name" content="xxxx">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/0.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="blog">
+      <meta itemprop="name" content="xxx">
     </span>
 
     
@@ -533,21 +555,6 @@
     <div>
       
         
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      Xipu
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="http://yoursite.com/2017/07/23/字符串、向量、数组、迭代器/" title="字符串、向量、数组、迭代器">http://yoursite.com/2017/07/23/字符串、向量、数组、迭代器/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-
 
       
     </div>
@@ -594,10 +601,27 @@
 
     <div class="post-spread">
       
-        
-<script>
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
 </script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
       
     </div>
@@ -646,10 +670,10 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/0.png"
-               alt="Xipu" />
-          <p class="site-author-name" itemprop="name">Xipu</p>
+               alt="xxxx" />
+          <p class="site-author-name" itemprop="name">xxxx</p>
            
-              <p class="site-description motion-element" itemprop="description">这要问鲍勃迪伦</p>
+              <p class="site-description motion-element" itemprop="description">xxxx</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -711,29 +735,29 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="" target="_blank" title="weibo">
+                <a href="http://weibo.com/your-user-name" target="_blank" title="微博">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-weibo"></i>
                   
-                  weibo
+                  微博
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="" target="_blank" title="douban">
+                <a href="http://douban.com/people/your-user-name" target="_blank" title="豆瓣">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-douban"></i>
                   
-                  douban
+                  豆瓣
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="" target="_blank" title="zhihu">
+                <a href="http://www.zhihu.com/people/your-user-nameame" target="_blank" title="知乎">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-zhihu"></i>
                   
-                  zhihu
+                  知乎
                 </a>
               </span>
             
@@ -788,23 +812,9 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Xipu</span>
+  <span class="author" itemprop="copyrightHolder">xxxx</span>
 </div>
 
-
-<div class="powered-by">
-   <a class="theme-link" href="https://hexo.io"></a> 个人专属
-</div>
-
-<div class="theme-info">
-  博客  
-
-  <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-  本站已经运行 
-  <span id="showDays"></span>
-  天 
-
-</div>
 
 <script>
 	var birthDay = new Date('06/1/2017');
@@ -850,8 +860,6 @@
   
 
 
-  
-
 
 
 
@@ -880,9 +888,6 @@
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-  
-  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-
 
   
 
@@ -895,13 +900,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
-
-
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
@@ -1246,6 +1244,19 @@
   </script>
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.1"></script>
 
 
 

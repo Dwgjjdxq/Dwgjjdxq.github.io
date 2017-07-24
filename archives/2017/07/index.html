@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,17 +51,35 @@
   
 
   
+    
+      
+    
 
-  
-
+    
   
 
   
 
   
     
+      
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Moda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -90,16 +108,16 @@
 
 
 
-<meta name="description" content="这要问鲍勃迪伦">
+<meta name="description" content="xxxx">
 <meta property="og:type" content="website">
-<meta property="og:title" content="blog">
+<meta property="og:title" content="xxx">
 <meta property="og:url" content="http://yoursite.com/archives/2017/07/index.html">
-<meta property="og:site_name" content="blog">
-<meta property="og:description" content="这要问鲍勃迪伦">
+<meta property="og:site_name" content="xxx">
+<meta property="og:description" content="xxxx">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blog">
-<meta name="twitter:description" content="这要问鲍勃迪伦">
+<meta name="twitter:title" content="xxx">
+<meta name="twitter:description" content="xxxx">
 
 
 
@@ -107,7 +125,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
     motion: true,
@@ -133,7 +151,7 @@
 
 
 
-  <title>归档 | blog</title>
+  <title>归档 | xxx</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -169,12 +187,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">blog</span>
+        <span class="site-title">xxx</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">Xipu'blog</p>
+        <p class="site-subtitle">xxx</p>
       
   </div>
 
@@ -262,22 +280,26 @@
   
     <div class="site-search">
       
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
-    <div class="local-search-input-wrapper">
-      <input autocapitalize="off" autocomplete="off" autocorrect="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
   </div>
-  <div id="local-search-result"></div>
-</div>
+
 
 
 
@@ -461,10 +483,10 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/0.png"
-               alt="Xipu" />
-          <p class="site-author-name" itemprop="name">Xipu</p>
+               alt="xxxx" />
+          <p class="site-author-name" itemprop="name">xxxx</p>
            
-              <p class="site-description motion-element" itemprop="description">这要问鲍勃迪伦</p>
+              <p class="site-description motion-element" itemprop="description">xxxx</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -526,29 +548,29 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="" target="_blank" title="weibo">
+                <a href="http://weibo.com/your-user-name" target="_blank" title="微博">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-weibo"></i>
                   
-                  weibo
+                  微博
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="" target="_blank" title="douban">
+                <a href="http://douban.com/people/your-user-name" target="_blank" title="豆瓣">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-douban"></i>
                   
-                  douban
+                  豆瓣
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="" target="_blank" title="zhihu">
+                <a href="http://www.zhihu.com/people/your-user-nameame" target="_blank" title="知乎">
                   
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-zhihu"></i>
                   
-                  zhihu
+                  知乎
                 </a>
               </span>
             
@@ -587,23 +609,9 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Xipu</span>
+  <span class="author" itemprop="copyrightHolder">xxxx</span>
 </div>
 
-
-<div class="powered-by">
-   <a class="theme-link" href="https://hexo.io"></a> 个人专属
-</div>
-
-<div class="theme-info">
-  博客  
-
-  <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-  本站已经运行 
-  <span id="showDays"></span>
-  天 
-
-</div>
 
 <script>
 	var birthDay = new Date('06/1/2017');
@@ -649,8 +657,6 @@
   
 
 
-  
-
 
 
 
@@ -679,9 +685,6 @@
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
-  
-  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-
 
   
 
@@ -694,13 +697,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
-
-
 
   
   
@@ -1047,6 +1043,19 @@
   </script>
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.1"></script>
 
 
 
